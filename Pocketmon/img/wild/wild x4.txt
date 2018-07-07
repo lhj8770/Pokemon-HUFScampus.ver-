@@ -1,0 +1,33 @@
+ini대신 wildini를 씀
+도망치다 선택했을때 run
+이기고나서 commandresult의 enemydie후 바로 필드로
+
+wildini1
+at:
+32,428
+wilds:
+128,428
+pokemonname:
+32,492
+OOega:
+32+width(pokemonname),492
+
+wildini2
+pokemonname:
+32,428
+OOega:
+32+width(pokemonname),428
+appear
+32,492
+
+wildini3 = ini4
+  gotext:
+  32,428
+  pokemonname:
+  160,428
+  exclamationtext:
+  160 + width(pokemonname),428
+
+run
+  run:
+  32,428
