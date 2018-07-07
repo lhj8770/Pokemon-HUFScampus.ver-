@@ -1,0 +1,9 @@
+양쪽의 커맨드가 다른경우:
+Mychange,MyItemUse > Enemychange,EnemyItemUse > MyAttack,EnemyAttack
+
+양쪽다 Attack인 경우:
+field위의 포켓몬중 더 빠른쪽의 turn먼저
+
+양쪽다 change이거나 양쪽다 Item Use 인경우:
+Myturn이 먼저
+

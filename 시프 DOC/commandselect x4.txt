@@ -1,0 +1,46 @@
+basic:battlecommentframe(0,0) commandframe(0,0)
+
+commandselect-1
+  싸우다 포인터:       
+  292 448
+  가방 포인터:         
+  152 448
+  포켓몬 포인터:       
+  292 512
+  도망치다 포인터:     
+  452 512
+
+skill select
+  commandframe_skillselect(0,0)  
+  기술1 텍스트:        
+  64,300
+  기술2 텍스트:        
+  64,364
+  기술3 텍스트:        
+  64,428
+  기술4 텍스트:        
+  64,492
+
+  기술1 포인터:        
+  36,320(+64)
+  기술타입 텍스트:     
+  476,496
+
+cantrun1 (안돼! 승부도중에)
+  NO:             
+  32,428
+  cantruncomment1:
+  32,492
+
+cantrun2 (승부도중에 상대에게 등을 보일 순 없어)
+  showbooing:
+  32,428
+  cantruncomment2:
+  32,492
+
+pokemonselect
+  commandframe_pokemonselect(0,0)
+  포인터는 menu_pokemonlist 참조
+
+itemselect
+  포인터는 menu_backpack 참조

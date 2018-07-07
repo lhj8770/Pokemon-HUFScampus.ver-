@@ -1,0 +1,20 @@
+battlecommentframe: 배틀 코멘트창, 배경
+0,0
+
+enemypokemonfront: 적 포켓몬 일러스트 
+96,0
+enemypokemonname: 필드상의 적 포켓몬 이름
+32,3
+enemyHPframe: 적 HP창
+0,0
+enemyHpbar: 필드상의 적 포켓몬 HP 게이지
+32,19
+
+mypokemonback: 필드상의 나의 포켓몬 일러스트
+16,48
+myHPframe: 나의 HP창
+0,0
+myHpbar: 필드상의 나의 포켓몬 HP 게이지
+96,75
+mypokemonname: 필드상의 나의 포켓몬 이름
+80,59

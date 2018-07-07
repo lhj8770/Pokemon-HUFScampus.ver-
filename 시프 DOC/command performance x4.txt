@@ -1,0 +1,95 @@
+myattack
+  pokemonname:
+  32,428
+  OOui:
+  32+width(pokemonname),428
+  skillname:
+  32,492
+  exclamaiontext:
+  32+width(skillname),492
+  
+mychange1
+  pokemonname:
+  32,428
+  no more:
+  64+width(pokemonname),428
+  comeback:
+  32,492
+  exclamaiontext:
+  128,492
+  
+mychange2
+  gotext:
+  32,428
+  pokemonname:
+  160,428
+  exclamationtext:
+  160 + width(pokemonname),428
+
+myitemuse
+  commentframe(0,0)
+  pokemonname:
+  32,428
+  OOui:
+  32+width(pokemonname),428
+  HpGa:
+  96+width(pokemonname),428
+  50:
+  32,492
+  Beheal:
+  128,492
+
+enemyattack
+  enemytext:
+  32,428
+  OOui:
+  64,428
+  pokemonname:
+  128,428
+  OOui:
+  128+width(pokemonname)
+  skillname:
+  32,492
+  exclamaiontext:
+  32+width(skillname),492
+  
+enemychange1
+  trainertext:
+  32,428
+  redname:
+  64+width(trainertext),428
+  OOis:
+  64+width(trainertext)+width(redname),428
+  pokemonname:
+  32,492
+  OOeul:
+  32+width(pokemonname),492
+
+enemychange2
+  pokemonname:
+  32,428
+  OOeul:
+  32+width(pokemonname),428
+  takeout:
+  32,492
+
+enemyitemuse1
+  trainertext:
+  32,428
+  redname:
+  64+width(trainertext),428
+  OOis:
+  64+width(trainertext)+width(redname),428
+  pokemonname:
+  32,492
+  OOege:
+  32+width(pokemonname),492
+
+enemyitemuse2
+  Itemname:
+  32,428
+  OOeul:
+  32+width(Itemname),428
+  Use:
+  32,492
+  

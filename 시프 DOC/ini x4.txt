@@ -1,0 +1,70 @@
+basic - battlecomentframe(0,0)
+
+ini-1 (포켓몬 트레이너 레드(이)가 승부를 걸어왔다) 
+// 나의 이미지와 상대의 이미지를 출력하고 포켓몬 가지고 있는 포켓몬 갯수를 나타냄
+  trainertext:
+  32,428
+  redname:
+  64 + width(trainercomment),428
+  OOeega:
+  64 + width(trainercomment) + width(redname),428
+  showbootext:
+  32, 492
+
+  enemyfront:
+  384,0
+  myback:
+  64,192
+  allstatusframe:
+  enemyallstatus: x+= 32
+  100,68
+  myallsatus: x+= 32
+  356,324
+
+ini-2 (포켓몬 트레이너 레드는(은) 이상해씨를(을))
+delete: OOeega, showbootext,
+        enemyfront, allstatusframe, enemyallstatus, myallsatus
+  OOis:
+  64 + width(trainercomment) + width(redname),428
+  pokemonname:
+  32,492
+  OOeul:
+  32 + width(pokemonname), 492
+
+ini-3 (이상해씨를(을) 차례로 꺼냈다)
+// 적의 첫번째 포켓몬을 필드로 보내고 포켓몬의 이미지, HP를 보이게함
+delete: trainertext, redname, OOis, pokemonname, OOeul
+  pokemonname:
+  32,428
+  OOeul:
+  32 + width(pokemonname),428
+  sequencetext:
+  32,492
+
+  enemypokemonfront:
+  384,0
+  enemyHPframe:
+  0,0
+  enemyHpbar:
+  128,76
+  enemypokemonname: 
+  128,12
+
+ini-4 (가랏! 꼬부기!)
+// 나의 첫번째 포켓몬을 필드로 내보내고 해당 포켓몬의 이미지,Hp를 보이게함
+delete: pokemonname, OOeul, sequencetext,
+  gotext:
+  32,428
+  pokemonname:
+  160,428
+  exclamationtext:
+  160 + width(pokemonname),428
+
+  mypokemonfront:
+  64,192
+  myHPframe:
+  0,0
+  myHpbar:
+  384,300
+  mypokemonname: 
+  320,236

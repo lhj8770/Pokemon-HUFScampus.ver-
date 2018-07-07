@@ -1,0 +1,72 @@
+enemydie
+  enemy: 
+  32,428
+  OOui:
+  64,428
+  pokemonname:
+  128,428
+  OOis:
+  224,428
+  falling:
+  32,492
+  
+enemyfill1
+  trainertext:
+  32,428
+  redname:
+  64+width(trainertext),428
+  OOis:
+  64+width(trainertext)+width(redname),428
+  pokemonname:
+  32,492
+  OOeul:
+  32+width(pokemonname),492
+  
+enemyfill2
+  pokemonname:
+  32,428
+  OOeul:
+  32+width(pokemonname),428
+  takeout:
+  32,492
+  
+mywin
+  trainertext:
+  32,428
+  redname:
+  64+width(trainertext),428
+  wintext:
+  32,492
+
+enemylosecommnet
+  enemylosecommnet:
+  32,428
+  
+mydie
+  pokemonname:
+  32,428
+  OOis:
+  32+width(pokemonname),428
+  falling:
+  32,492
+  
+myfill1
+  commandframe_pokemonselect(0,0)
+  포인터는 menu_pokemonlist 참조
+
+myfill2
+  gotext:
+  8,107
+  pokemonname:
+  40,107
+  exclamationtext:
+  40 + width(pokemonname),107  
+  
+mylose1
+  loser:
+  8,107
+
+mylose2
+  blind:
+  8,107
+  
