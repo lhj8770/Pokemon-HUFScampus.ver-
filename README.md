@@ -15,4 +15,5 @@
 Pocketmon.java→ゲーム全体のflow
 
 AI.java→バトルに適応されるNPCと野生ポケモンとの戦闘の行動を決めるメソッド存在
+
 MoveEvent.java→キーボード操作で起こるイベント(stateの変更)を担当
